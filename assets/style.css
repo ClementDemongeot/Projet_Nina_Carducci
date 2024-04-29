@@ -355,6 +355,9 @@ footer {
   .picture.right > img {
     height: auto;
   }
+  .picture.left > img {
+    height: auto;
+  }
   #services .container {
     align-items: center;
   }
