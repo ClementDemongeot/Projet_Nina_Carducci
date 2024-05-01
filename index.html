@@ -59,17 +59,11 @@
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
-        "@type": "Person",
+        "@type": "LocalBusiness",
         "name": "Nina Carducci",
         "jobTitle": "Photographe"
-      }
-    </script>
-
-    <script type="application/ld+json">
-      {
-        "@context": "http://schema.org",
-        "@type": "Photographe",
-        "name": "Nina Carducci Photographe",
+        "image": "./assets/images/nina.webp"
+        "url":"https://clementdemongeot.github.io/Projet_Nina_Carducci/"
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "68 avenue Alsace-Lorraine",
@@ -79,8 +73,20 @@
           "addressCountry": "France"
         },
         "telephone": "05 56 67 78 89",
-        "openingHours": "lundi au vendredi de 10h à 19h",
         "priceRange": "50€ - 400€",
+        "openingHoursSpecification":[
+        {
+          "@type:"OpeningHoursSpecification",
+          "dayOfWeek":[
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+          ]
+          "opens":"10:00",
+          "closes":19:00"
+        }]
         "sameAs": ["https://www.instagram.com/ninacarducci.photo/?hl=fr"]
       }
     </script>
