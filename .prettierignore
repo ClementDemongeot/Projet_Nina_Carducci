@@ -1,0 +1,8 @@
+#ignore le fichier "styleMin.css dans le repertoire "asset"
+assets/styleMin.css
+
+#ignore le fichier"maugalleryMin.js" dans le repertoire "asset"
+assets/maugalleryMin.js
+
+#ignore le fichier "scriptsMin.js" dans le repertoire "asset"
+assets/scriptsMin.js
